@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+    transition: all ease-in 0.2ms;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100%;
+}
+section{
+    min-height: 100vh;
+    margin-top:100px;
+}
+.carousel-item img{
+    height: 600px;
+}
+footer .img{
+    width: 200px;
+    height: 100px;
+    object-fit: fill;
+}
+.nav-link:hover{
+    text-decoration: underline;
+}
+.form-group label {
+    font-weight: bold;
+}
+/* Center the carousel caption text */
+.carousel-caption {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.7); /* Add a semi-transparent background to the caption */
+    padding: 10px;
+    color: #fff;
+}
+
+/* Optional: Add additional styling for the hero section */
+#hero {
+    background-color: #f0f0f0;
+    text-align: center;
+}
